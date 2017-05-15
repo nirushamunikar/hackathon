@@ -1,0 +1,23 @@
+*{
+	margin:0 auto;
+	padding:0;
+}
+.top{
+	background:#f00;
+	min-height:80px;
+	color:#fff;
+}
+.menu-bar ul li a{
+	color:#333;
+}
+.menu-bar ul{
+	background:#000;
+	padding:15px 0px;
+	border-radius:20px;
+}
+.menu-bar ul li:hover a{
+	color:#333;
+}
+.menu-bar{
+	margin-top:-60px;
+}

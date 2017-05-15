@@ -1,0 +1,137 @@
+<html>
+<head>
+<title>DIGIPRINT</title>
+<link href="image/logo.jpg" rel="shortcut icon">
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+	<link href="image/logo.png" rel="shortcut-icon">
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<script src="js/jquery.min.js"></script>
+	<script type="text/javascript">
+	(function($) { // Begin jQuery
+  $(function() { // DOM ready
+    // If a link has a dropdown, add sub menu toggle.
+    $('nav ul li a:not(:only-child)').click(function(e) {
+      $(this).siblings('.nav-dropdown').toggle();
+      // Close one dropdown when selecting another
+      $('.nav-dropdown').not($(this).siblings()).hide();
+      e.stopPropagation();
+    });
+    // Clicking away from dropdown will remove the dropdown class
+    $('html').click(function() {
+      $('.nav-dropdown').hide();
+    });
+    // Toggle open and close nav styles on click
+    $('#nav-toggle').click(function() {
+      $('nav ul').slideToggle();
+    });
+    // Hamburger to X toggle
+    $('#nav-toggle').on('click', function() {
+      this.classList.toggle('active');
+    });
+  }); // end DOM ready
+})(jQuery); // end jQuery
+</script>
+</head>
+<body>
+	<!--top-->
+		<div class="top">
+			<img src="image/logo.jpg" alt="logo"/>
+			<div class="des">
+				<h3><b>DIGI<font color="red">PRINT</font></b></h3>
+				<h6>We are here to help you</h6>
+				<a href="wwww.facebook.com"><img src="image/fb.png" width="10%" style="float:right margin-top:-10px"></a>
+			</div>
+		</div>
+	<!--end-->
+	
+	<!--menu-->
+		<div class="up"></div>
+		<div class="menu">
+			<ul>
+				<li><a href="#">HOME</a></li>
+				<li><a href="#">PORTFOLIO</a></li>
+				<li><a href="#">BLOG</a></li>
+				<li><a href="#">SERVICES &#9660;</a>
+					<ul class="sub-menu">
+						<li><a href="#">services 1</a></li>
+						<li><a href="#">services 2</a></li>
+						<li><a href="#">services 3</a></li>
+						<li><a href="#">services 4 &#9654;</a>
+							<ul class="sub1"> 	
+								<li><a href="#">services 4.1</a></li>
+								<li><a href="#">services 4.2</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li><a href="#">CASE STUDIES</a></li>
+				<li><a href="#">CONTACT US</a></li>
+			</ul>
+		</div>
+		<div class="up"></div>
+	<!--end-->
+		<div class="col-md-12">
+			<div class="col-md-2 left1">
+				<div ><h1>Want to Start a new Business??</h1>
+				<a href="#"><h4>Click Here</h4></a></div>
+				<div class="left2">
+					<h4><b>Register Here</b></h4>
+					<p>Name:</p>
+					<p><input type="text"></p>
+					<p>Email:</p>
+					<p><input type="text"></p>
+					<p>Password:</p>
+					<p><input type="text"></p>
+					<p>Phone no:</p>
+					<p><input type="text"></p>
+				</div>
+			</div>
+			<div class="col-md-10 triangle">
+				<img src="image/triangle.jpg" width="1100px" height="540px"/>
+				<h3>Related Photos</h3>
+				<div class="box">
+					<div class="row">
+						<div class="col-md-4"><img src="image/pic2.jpg" alt="image" width="100%"/></div>
+						<div class="col-md-4"><img src="image/pic3.jpg" alt="image" width="100%"/></div>
+						<div class="col-md-4"><img src="image/pic2.jpg" alt="image" width="100%"/></div>
+					</div>
+				</div>
+				<div class="advertisement">
+					<h3>Advertisement</h3>
+					<div class="row">
+						<div class="col-md-6"><img src="image/pic2.jpg" alt="image" width="100%"/></div>
+						<div class="col-md-6"><img src="image/pic3.jpg" alt="image" width="100%"/></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--abovefooter-->	
+		<div class="up"></div>
+		<div class="col-md-12 footer">
+			<div class="col-md-2"></div>
+			<div class="col-md-10 menulast">
+				<ul class="nav nav-pills">
+					<li><a href="#"><b>Home</b></a></li>
+					<li><a href="#"><b>Selling</b></a></li>
+					<li><a href="#"><b>Buying</b></a></li>
+					<li><a href="#"><b>Contact Us</b></a></li>
+					<li><a href="#"><b>About Us</b></a></li>
+				</ul>
+				<div class="footeraerge">
+					<p>@ Copyright 2013 - RealEstate Inc. All rights reserved.</p>
+					<p>Howelland image are copyright and trademark of the respected owner.</p>
+				</div>
+			</div>
+		</div>
+		<!--end-->
+
+
+<script type="text/javascript" src="jquery/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
