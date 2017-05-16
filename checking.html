@@ -1,28 +1,24 @@
+<!DOCTYPE html>
 <html>
 <head>
-<title>DIGIPRINT</title>
-<link href="image/logo.jpg" rel="shortcut icon">
-<link href="style.css" rel="stylesheet" type="text/css"/>
-<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
-	<link href="image/logo.png" rel="shortcut-icon">
-	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-	<link href="css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
-	<link href="style.css" rel="stylesheet" type="text/css">
-	<script src="js/jquery.min.js"></script>
-</head>
+  <link rel="stylesheet" type="text/css" href="css/elastislide.css" />
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jquerypp.custom.js"></script>
+  <script type="text/javascript" src="js/modernizr.custom.17475.js"></script>
+  <script type="text/javascript" src="js/jquery.elastislide.js"></script>
+<head>
 <body>
-<div class="col-md-2">
-</div>
-<div class="col-md-10">
-	<div class="col-md-3">
-		<h1>old store</h2>
-	</div>
-	<div class="col-md-5"></div>
-	</div class="col-md-4">
-		<input type="text" placeholder="search">
-		<button type="button" class="btnd btn-danger">
-	</div>
-</div>
+
 </body>
+<ul id="carousel" class="elastislide-list">     
+  <li><a href="1.jpg"><img src="1.jpg" alt="img1" /></a></li>
+  <li><a href="2.jpg"><img src="2.jpg" alt="img2" /></a></li>
+  <li><a href="3.jpg"><img src="3.jpg" alt="img3" /></a></li>
+  <li><a href="4.jpg"><img src="4.jpg" alt="img4" /></a></li>
+</ul>
+<script type="text/javascript">      
+  $('#carousel').elastislide();
+</script>
+
+<body>
 </html>
