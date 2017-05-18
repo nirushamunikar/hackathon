@@ -57,6 +57,8 @@
     margin-right: -10px;
 }
 }
+
+
 .left1{
 	background:#fff;
 	position:fixed;
@@ -80,10 +82,7 @@
 .menulast ul li:hover a{
 	background:none;
 }
-.footer{
-	width:100%;
-	background:#f07474;
-}
+
 .border{
 	border:1px solid grey;
 	margin:10px;
@@ -93,7 +92,14 @@ button{
 	margin-left:40%;
 }
 .btn{
+	padding:5px 15px;
+	margin-left:25%;
+	margin-top:20px;
+	margin-right:10px;
+}
+.btn1{
 	padding:5px 20px;
+	margin-left:20%;
 }
 .background{
 		background:#e24503;
@@ -148,18 +154,22 @@ input{
 	
 }
 .bookopen{
-	border:1px solid white;
-	padding:20px;
-	background:#fff;
+
+
+
+	margin-top:-100px;
+}
+.desbook{
+	color:#000;
 }
 
 .bookcontent{
-	margin-left:13%;
+	background:#fff;
 	width:80%;
-	margin-top:140px;
+	margin-left:13%;
 }
+
 .categories{
-	position:fixed;
 	top:0px;
 	overflow:hidden;
 	background:#F5F5F5;
@@ -171,17 +181,101 @@ input{
 	
 }
 .form{
-	background:grey;
+	background:linear-gradient(#f36708,#e34504);
 	padding:15px;
-	margin-left:-20px;
-	margin-right:5px;
+	margin-right:0px;
 }
-.carousel-inner .active.left { left: -33%; }
-.carousel-inner .next        { left:  33%; }
-.carousel-inner .prev        { left: -33%; }
-.carousel-control.left,.carousel-control.right {background-image:none; color: black;}
+.abovefooter{
+	background:#313d53;
+	color:#a5b0c3;
+	
+}
+.footer{
+	background:#000;
+	height:70px;
+	padding:15px;
+	color:#a5b0c3;
+}
+.foot{
+	margin-left:8%;
+}
+
+ /* jssor slider bullet navigator skin 05 css */
+            /*
+            .jssorb05 div           (normal)
+            .jssorb05 div:hover     (normal mouseover)
+            .jssorb05 .av           (active)
+            .jssorb05 .av:hover     (active mouseover)
+            .jssorb05 .dn           (mousedown)
+            */
+            .jssorb05 {
+                position: absolute;
+            }
+            .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+                position: absolute;
+                /* size of bullet elment */
+                width: 16px;
+                height: 16px;
+                background: url(image/b05.png) no-repeat;
+                overflow: hidden;
+                cursor: pointer;
+            }
+            .jssorb05 div { background-position: -7px -7px; }
+            .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+            .jssorb05 .av { background-position: -67px -7px; }
+            .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+ /* jssor slider arrow navigator skin 12 css */
+            /*
+            .jssora12l                  (normal)
+            .jssora12r                  (normal)
+            .jssora12l:hover            (normal mouseover)
+            .jssora12r:hover            (normal mouseover)
+            .jssora12l.jssora12ldn      (mousedown)
+            .jssora12r.jssora12rdn      (mousedown)
+            */
+            .jssora12l, .jssora12r {
+                display: block;
+                position: absolute;
+                /* size of arrow element */
+                width: 30px;
+                height: 46px;
+                cursor: pointer;
+                background: url(image/a12.png) no-repeat;
+                overflow: hidden;
+            }
+            .jssora12l { background-position: -16px -37px; }
+            .jssora12r { background-position: -75px -37px; }
+            .jssora12l:hover { background-position: -136px -37px; }
+            .jssora12r:hover { background-position: -195px -37px; }
+            .jssora12l.jssora12ldn { background-position: -256px -37px; }
+            .jssora12r.jssora12rdn { background-position: -315px -37px; }
 @media (max-width:991px){
 .form{
 	display:none;
 }
+
+.bookcontent img{
+	height:400px;
+}
+.bookopen{
+	margin-top:-120px;
+}
+.bookpictop img{
+	margin-top:-15px;
+	height:250px;
+}
+.border{
+	width:50%;
+}
+}
+@media (max-width:475px){
+	.slidercontainer{
+		margin:0%;
+	}
+	.bookpictop {
+		width:120%;
+	}
+	.navigation{
+		width:120%;
+	}
 }

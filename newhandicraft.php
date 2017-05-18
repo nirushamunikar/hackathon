@@ -31,7 +31,7 @@
 				<div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
 				<ul class="nav-list">
 					<li><a href="index.php">Home</a></li>
-					<li><a href="#">About Us</a></li>
+					<li><a href="aboutus.php">About Us</a></li>
 					<li><a href="#!">Categories</a>
 						<ul class="nav-dropdown">
 							<li><a href="book.php">Old Book Store</a></li>
@@ -40,8 +40,8 @@
 						</ul>
 					</li>
 				
-					<li><a href="#!">Help</a></li>
-					<li><a href="#!">Contact Us</a></li>
+					<li><a href="help.php">Help</a></li>
+					<li><a href="contactus.php">Contact Us</a></li>
 					<li><a href="signup.php" class="btn btn-danger">Sign Up</a></li>
 					<li><a href="login.php" class="btn btn-danger">Login</a></li>
 				</ul>
@@ -52,7 +52,7 @@
 
 
 				<div class="bookpictop">
-				<img src="image/book1.jpg"  width="100%" height="250px"/></div>
+				<img src="image/handicraft2.jpg"  width="100%" height="250px"/></div>
 				<div class="container"><div class="row">
 					<div class="col-md-12">
 						<div class="col-md-8 bookopen">
